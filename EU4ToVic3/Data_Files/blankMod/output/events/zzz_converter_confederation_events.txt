@@ -2991,7 +2991,7 @@ zzz_cc_confederation.31 = {
 			limit = {
 				top_overlord = {
 					any_scope_state = {
-						OR = {
+						#OR = {
 							zzz_converter_state_is_in_south_africa = yes
 							any_scope_pop = {
 								culture = {
@@ -2999,14 +2999,14 @@ zzz_cc_confederation.31 = {
 									has_homeland = prev.state
 								}
 							}
-						}
+						#}
 					}
 				}
 			}
 			top_overlord = {
 				every_scope_state = {
 					limit = {
-						OR = {
+						#OR = {
 							zzz_converter_state_is_in_south_africa = yes
 							any_scope_pop = {
 								culture = {
@@ -3014,7 +3014,7 @@ zzz_cc_confederation.31 = {
 									has_homeland = prev.state
 								}
 							}
-						}
+						#}
 					}
 					set_state_owner = root
 				}
